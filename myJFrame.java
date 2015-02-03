@@ -13,7 +13,7 @@ public class myJFrame extends JFrame {
     
     public myJFrame(){
         
-        // 
+        
         mjp = new myJPanel(this);
         mtb = new myToolbar(this);
            
