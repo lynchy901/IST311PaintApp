@@ -2,6 +2,7 @@
 
 
 import java.awt.BorderLayout;
+import java.awt.Color;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
@@ -18,7 +19,8 @@ public class myJFrame extends JFrame {
         mtb = new myToolbar(this);
            
         getContentPane().setLayout(new BorderLayout());
-        getContentPane().add(mjp.p1,"North");
+        getContentPane().add(mjp.p1,"Center");
+        
         getContentPane().add(mtb.toolbar,"South");
         
         setDefaultCloseOperation(EXIT_ON_CLOSE);
