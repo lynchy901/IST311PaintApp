@@ -1,5 +1,5 @@
 
-package paint;
+
 
 import java.awt.BorderLayout;
 import javax.swing.JFrame;
@@ -13,7 +13,7 @@ public class myJFrame extends JFrame {
     
     public myJFrame(){
         
-        
+        // 
         mjp = new myJPanel(this);
         mtb = new myToolbar(this);
            
