@@ -24,13 +24,15 @@ public class myToolbar extends JPanel {
     JPanel toolbar;
     JLabel cslider, tslider;
     
+    String [] colors = {"red", "green", "blue", "black"};
+    String [] thickness = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10"};
+    
     myJFrame parentJFrame;
     
     
     public myToolbar(myJFrame theFrame){
         parentJFrame = theFrame;
         
-        String [] colors = {"red", "green", "blue", "black"};
         
         toolbar = new JPanel();
         toolbar.setLayout(new GridLayout(2,6));
