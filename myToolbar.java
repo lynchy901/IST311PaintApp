@@ -29,11 +29,6 @@ public class myToolbar {
         //erase.addActionListener(eraseListen);
         toolbar.add(erase);
         
-        polygon = new JButton("Polygon");
-        //polygonListener polygonListen = new polygonListener();
-        //polygon.addActionListener(polygonListen);
-        toolbar.add(polygon);
-        
         square = new JButton("Square");
         //squareListener squareListen = new squareListener();
         //square.addActionListener(squareListen);
@@ -60,9 +55,6 @@ public class myToolbar {
     }
     public class eraseListener implements ActionListener{
         // Erase Button Logic Here
-    }
-    public class polygonListener implements ActionListener{
-        // Polygon Button Logic Here
     }
     public class squareListener implements ActionListener{
         // Square Button Logic Here
