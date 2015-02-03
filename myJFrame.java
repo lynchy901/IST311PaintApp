@@ -28,4 +28,7 @@ public class myJFrame extends JFrame {
         
     }
     
+    public myJPanel getJPanel() {
+        return mjp;
+    }
 }
