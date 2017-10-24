@@ -24,7 +24,7 @@ public class myJFrame extends JFrame {
         getContentPane().add(mtb.toolbar,"South");
         
         setDefaultCloseOperation(EXIT_ON_CLOSE);
-	setSize (640, 480);
+	setSize (640, 481);
 	setVisible(true);
         setLocationRelativeTo(null);
         
